@@ -162,14 +162,14 @@ fi
 
 | ID    | Feature           | Value              | Effort | Score | Status |
 | ----- | ----------------- | ------------------ | ------ | ----- | ------ |
-| B-240 | System assessment | Rev:5 Ret:5 Diff:5 | S      | 15.0  | Ready  |
-| B-239 | CLI review        | Rev:4 Ret:5 Diff:5 | M      | 7.0   | Ready  |
+| P-001 | System assessment | Rev:5 Ret:5 Diff:5 | S      | 15.0  | Ready  |
+| P-002 | CLI review        | Rev:4 Ret:5 Diff:5 | M      | 7.0   | Ready  |
 
-**B-240 Analysis:**
+**P-001 Analysis:**
 
 Quick summary in 2-3 sentences.
 
-**Full details:** See `docs/backlog-items/B-240-implementation-guide.md`
+**Full details:** See `docs/backlog-items/P-001-implementation-guide.md`
 
 ---
 
@@ -177,7 +177,7 @@ Quick summary in 2-3 sentences.
 
 See [BACKLOG-ARCHIVE.md](./docs/BACKLOG-ARCHIVE.md) for all completed items.
 
-**Recent:** B-237 (Jan 17), B-206 (Jan 16), B-209 (Jan 14)
+**Recent:** P-003 (Jan 17), P-004 (Jan 16), P-005 (Jan 14)
 **Total:** 120+ archived
 ```
 
@@ -190,20 +190,20 @@ See [BACKLOG-ARCHIVE.md](./docs/BACKLOG-ARCHIVE.md) for all completed items.
 
 | ID    | Feature           | Status  |
 | ----- | ----------------- | ------- | --------------------- |
-| B-240 | System assessment | Ready   |
-| B-165 | Architecture gate | ✅ Done | ❌ Clutters view      |
-| B-166 | JSON output       | ✅ Done | ❌ Remove completed   |
-| B-167 | Missing deps      | ✅ Done | ❌ Should be archived |
+| P-001 | System assessment | Ready   |
+| P-006 | Architecture gate | ✅ Done | ❌ Clutters view      |
+| P-007 | JSON output       | ✅ Done | ❌ Remove completed   |
+| P-008 | Missing deps      | ✅ Done | ❌ Should be archived |
 
-**B-240 Analysis:**
+**P-001 Analysis:**
 
 [500 lines of detailed analysis] ❌ Too verbose - move to separate file
 
-**B-165 Completed Implementation:** ❌ Move to archive
+**P-006 Completed Implementation:** ❌ Move to archive
 
 [200 lines of what we did]
 
-**B-166 Completed Implementation:** ❌ Move to archive
+**P-007 Completed Implementation:** ❌ Move to archive
 
 [150 lines of what we did]
 ```
