@@ -25,7 +25,7 @@ UC-01: Purchase Products (Epic)
 ├─ F-01: Starter Kit Purchase (Feature)
 │   ├─ US-01.01: "As a founder, I want to buy the Starter Kit, so I can build my SaaS"
 │   │   ├─ REQ-F.01.01: Display pricing tiers on /pricing page
-│   │   │   └─ AC: GIVEN user visits /pricing WHEN page loads THEN show $199/$349 options
+│   │   │   └─ AC: GIVEN user visits /pricing WHEN page loads THEN show pricing tier options
 │   │   ├─ REQ-F.01.02: Create Stripe checkout session
 │   │   │   └─ AC: GIVEN user clicks Buy WHEN tier selected THEN redirect to Stripe
 │   │   ├─ REQ-F.01.03: Validate Stripe webhook signature

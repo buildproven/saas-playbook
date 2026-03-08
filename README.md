@@ -18,12 +18,20 @@ Scoring and prioritization system for backlogs. Value-driven formula: `(Revenue 
 ### [Output Consistency SOP](SOP-output-consistency.md)
 Standard operating procedure for consistent deliverables across product tiers. Defines what each tier delivers and the quality bar for each output.
 
+### [Quality Gates](QUALITY-GATES.md)
+Quality gate system for pre-commit, CI, and release. Covers coverage thresholds, `.qualityrc.json` config, security audits, and the automation loop that makes quality enforcement automatic instead of optional.
+
+### [Launch Templates](LAUNCH-TEMPLATES.md)
+Ready-to-adapt social and email templates for shipping a developer tool or SaaS product. Includes Twitter thread, LinkedIn post, Indie Hackers post, and newsletter email — all with placeholder variables to fill in.
+
 ## How to Use
 
 1. **Starting a new project?** Read Testing Strategy first — it sets the quality bar.
-2. **Growing backlog?** Apply the Backlog Maintenance scoring to prioritize ruthlessly.
-3. **Scaling the team?** Requirements Engineering Standard ensures nothing falls through cracks.
-4. **Shipping to customers?** Output Consistency SOP defines your quality bar per tier.
+2. **Ready to ship?** Apply Quality Gates to lock in your release criteria.
+3. **Growing backlog?** Apply the Backlog Maintenance scoring to prioritize ruthlessly.
+4. **Scaling the team?** Requirements Engineering Standard ensures nothing falls through cracks.
+5. **Shipping to customers?** Output Consistency SOP defines your quality bar per tier.
+6. **Launching publicly?** Use Launch Templates for social and email copy.
 
 ## License
 

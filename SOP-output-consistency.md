@@ -8,7 +8,7 @@ Each product has defined deliverables that must be delivered consistently. This 
 
 ---
 
-## Product: Validator ($297)
+## Product: Validator ($[PRICE])
 
 ### Deliverables
 
@@ -77,7 +77,7 @@ Each product has defined deliverables that must be delivered consistently. This 
 
 ---
 
-## Product: Starter Kit ($199 Single / $349 Unlimited)
+## Product: Starter Kit ($[PRICE_SINGLE] Single / $[PRICE_UNLIMITED] Unlimited)
 
 ### Deliverables
 
@@ -139,7 +139,7 @@ Stripe webhook → Create customer record → Queue delivery
 ### 2. Validation (Validator product)
 
 ```
-Run Revenue Hunter V3 → Generate report → Email customer
+Run validation agent → Generate report → Email customer
 ```
 
 ### 3. Scaffold (Starter Kit product)
